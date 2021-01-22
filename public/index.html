@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clever Baby</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"
+      type="text/javascript"
+    ></script>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <button class="main-header__menu-button" type="button">
+        <span class="visually-hidden">Меню</span>
+      </button>
+      <img
+        class="main-header__logo"
+        src="../img/header/CleverBaby_logo.svg"
+        alt="Clever Baby"
+      />
+      <nav class="main-header__navigation navigation">
+        <div class="navigation__wrapper navigation-wrapper">
+          <ul class="navigation-wrapper__list navigation-list">
+            <li class="navigation-list__item navigation-item">
+              <a class="navigation-item__link" href="#education-process"
+                >Методика</a
+              >
+            </li>
+            <li class="navigation-list__item navigation-item">
+              <a class="navigation-item__link" href="#our-workers"
+                >Преподаватели</a
+              >
+            </li>
+            <li class="navigation-list__item navigation-item">
+              <a class="navigation-item__link" href="#groups">Группы</a>
+            </li>
+            <li class="navigation-list__item navigation-item">
+              <a class="navigation-item__link" href="#">Отзывы</a>
+            </li>
+            <li class="navigation-list__item navigation-item">
+              <a class="navigation-item__link" href="#footer">Контакты</a>
+            </li>
+          </ul>
+          <a class="header-navigation__phone" href="tel:+74959834719"
+            >+ 7 (495) 983-47-19</a
+          >
+        </div>
+      </nav>
+      <a class="main-header__phone" href="tel:+74959834719"
+        >+ 7 (495) 983-47-19</a
+      >
+    </header>
+    <main>
+      <section class="sign-in">
+        <div class="sign-in__wrapper sign-wrapper">
+          <h2 class="sign-wrapper__header sign-header headers">
+            Английский язык
+            <span class="sign-header__subline">для детей от 2 до 7 лет</span>
+          </h2>
+          <p class="sign-wrapper__text main-text">
+            Гармоничное развитие детей и обучение через полное погружение в
+            языковую среду
+          </p>
+          <a class="sign-wrapper__button" href="#">Записаться</a>
+        </div>
+      </section>
+      <section class="education-process" id="1">
+        <h2 class="education-process__header headers">Как проходит обучение</h2>
+        <div class="education-process__method education-method">
+          <h3 class="education-method__header sub-headers">
+            Играя — обучаем, обучая — развиваем
+          </h3>
+          <p class="education-method__text main-text">
+            Мы взяли все самое лучшее из традиционных и современных методик
+            обучения и развития детей. Обучение английскому языку происходит
+            легко и интересно, ведь малыши не зубрят материал по учебникам, а
+            познают его через игру, сказки, книги и музыку.
+          </p>
+          <p class="education-method__text main-text">
+            Наша методика также включает в себя обучение по программе Cambridge.
+            Благодаря этому, наши ученики без труда сдают международные и
+            государственные экзамены.
+          </p>
+        </div>
+        <div class="education-process__example education-example">
+          <h3 class="education-example__header sub-headers">
+            Посмотрите, как проходят наши занятия
+          </h3>
+          <div class="education-example__video video-container">
+            <video
+              class="video-container__video"
+              src="../video/vid_20180521_211554.mov"
+            ></video>
+            <button class="video-container__play-button">
+              <span class="visually-hidden">play</span>
+            </button>
+          </div>
+        </div>
+        <div class="education-process__benefits education-benefits">
+          <div class="education-benefits__block benefits-block">
+            <h3 class="benefits-block__header sub-headers">
+              Развитие 10 видов интеллекта
+            </h3>
+            <p class="benefits-block__text main-text">
+              Учимся общаться, развивать эмоциональный, творческий интеллект и
+              многое другое
+            </p>
+          </div>
+          <div class="education-benefits__block benefits-block">
+            <h3 class="benefits-block__header sub-headers">
+              Языковое погружение
+            </h3>
+            <p class="benefits-block__text main-text">
+              Занятия проходят полностью на английском языке, независимо от типа
+              задания
+            </p>
+          </div>
+          <div class="education-benefits__block benefits-block">
+            <h3 class="benefits-block__header sub-headers">
+              Педагоги — носители языка
+            </h3>
+            <p class="benefits-block__text main-text">
+              Занятия ведут преподаватели из США, Великобритании и Канады, для
+              которых английский язык является родным
+            </p>
+          </div>
+          <div class="education-benefits__block benefits-block">
+            <h3 class="benefits-block__header sub-headers">Небольшие группы</h3>
+            <p class="benefits-block__text main-text">
+              Дети занимаются в группах до 5 человек, что позволяет применять
+              индивидуальный подход к каждому
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="groups" id="groups">
+        <div class="groups__wrapper groups-wrapper">
+          <h2 class="groups-wrapper__header headers">Наши группы</h2>
+          <p class="groups-wrapper__text main-text">
+            В группах занимается до 5 человек. Все дети в группе примерно одного
+            возраста и уровня знаний.
+          </p>
+          <ul class="groups-wrapper__types groups-types">
+            <li class="groups-types__item groups-item">
+              <h3 class="groups-item__header">Бэбики-1</h3>
+              <ul class="groups-item__list item">
+                <li class="item__text">1 раз в неделю</li>
+                <li class="item__text">1,5 часа занятие</li>
+                <li class="item__text">
+                  <span class="item-price">2500 ₽</span> в месяц
+                </li>
+              </ul>
+              <a href="#" class="item__button">Записаться</a>
+            </li>
+            <li class="groups-types__item groups-item gold">
+              <h3 class="groups-item__header">Бэбики-2</h3>
+              <ul class="groups-item__list item">
+                <li class="item__text">2 раза в неделю</li>
+                <li class="item__text">1,5 часа занятие</li>
+                <li class="item__text">
+                  <span class="item-price">4000 ₽</span> в месяц
+                </li>
+              </ul>
+              <a href="#" class="item__button">Записаться</a>
+            </li>
+            <li class="groups-types__item groups-item pink">
+              <h3 class="groups-item__header">Бэбики-3</h3>
+              <ul class="groups-item__list item">
+                <li class="item__text">3 раза в неделю</li>
+                <li class="item__text">1 час занятие</li>
+                <li class="item__text">
+                  <span class="item-price">4000 ₽</span> в месяц
+                </li>
+              </ul>
+              <a href="#" class="item__button">Записаться</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="our-workers" id="our-workers">
+        <h2 class="our-workers__header headers">Наши преподаватели</h2>
+        <p class="our-workers__text main-text">
+          Все наши преподаватели — носители английского языка и имеют
+          необходимое образование и опыт работы с детьми
+        </p>
+        <div class="our-workers__list-wrapper">
+          <ul class="our-workers-list">
+          <li class="our-workers-list__item worker kate">
+            <figure>
+              <picture>
+                <source
+                  media="(max-width: 765px)"
+                  srcset="../img/our-workers/Kate_Smith_320.jpg"
+                />
+                <source
+                  media="(min-width: 768px) and (max-width: 1365px)"
+                  srcset="../img/our-workers/Kate_Smith_768.jpg"
+                />
+                <source
+                  media="(min-width: 1366px)"
+                  srcset="../img/our-workers/Kate_Smith_1366.jpg"
+                />
+                <img
+                  src="../img/our-workers/Kate_Smith_1366.jpg"
+                  alt="Кейт Смит"
+                />
+              </picture>
+              <figcaption>
+                <h3 class="worker__name">Kate Smith</h3>
+                <p class="worker__motherland">США</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="our-workers-list__item worker samuel">
+            <figure>
+              <picture>
+                <source
+                  media="(max-width: 765px)"
+                  srcset="../img/our-workers/Samuel_King_320.jpg"
+                />
+                <source
+                  media="(min-width: 768px) and (max-width: 1365px)"
+                  srcset="../img/our-workers/Samuel_King_768.jpg"
+                />
+                <source
+                  media="(min-width: 1366px)"
+                  srcset="../img/our-workers/Samuel_King_1366.jpg"
+                />
+                <img
+                  src="../img/our-workers/Samuel_King_1366.jpg"
+                  alt="Сэмюэль Кинг"
+                />
+              </picture>
+              <figcaption>
+                <h3 class="worker__name">Samuel King</h3>
+                <p class="worker__motherland">США</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="our-workers-list__item worker nikole">
+            <figure>
+              <picture>
+                <source
+                  media="(max-width: 765px)"
+                  srcset="../img/our-workers/Nikole_Young_320.jpg"
+                />
+                <source
+                  media="(min-width: 768px) and (max-width: 1365px)"
+                  srcset="../img/our-workers/Nikole_Young_768.jpg"
+                />
+                <source
+                  media="(min-width: 1366px)"
+                  srcset="../img/our-workers/Nikole_Young_1366.jpg"
+                />
+                <img
+                  src="../img/our-workers/Nikole_Young_1366.jpg"
+                  alt="Николь Янг"
+                />
+              </picture>
+              <figcaption>
+                <h3 class="worker__name">Nikole Young</h3>
+                <p class="worker__motherland">Канада</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="our-workers-list__item worker karoline">
+            <figure>
+              <picture>
+                <source
+                  media="(max-width: 765px)"
+                  srcset="../img/our-workers/Karoline_Bush_320.jpg"
+                />
+                <source
+                  media="(min-width: 768px) and (max-width: 1365px)"
+                  srcset="../img/our-workers/Karoline_Bush_768.jpg"
+                />
+                <source
+                  media="(min-width: 1366px)"
+                  srcset="../img/our-workers/Karoline_Bush_1366.jpg"
+                />
+                <img
+                  src="../img/our-workers/Karoline_Bush_1366.jpg"
+                  alt="Каролина Буш"
+                />
+              </picture>
+              <figcaption>
+                <h3 class="worker__name">Karoline Bush</h3>
+                <p class="worker__motherland">Канада</p>
+              </figcaption>
+            </figure>
+          </li>
+          </ul>
+          <button type="button" class="slider-button back">
+            <span class="visually-hidden">Назад</span>
+          </button>
+          <button type="button" class="slider-button forvard">
+            <span class="visually-hidden">Вперед</span>
+          </button>
+        </div>
+      </section>
+      <section class="free-offer">
+        <div class="free-offer__wrapper offer-wrapper">
+          <h2 class="offer-wrapper__header headers">
+            Запишитесь на бесплатное пробное занятие
+          </h2>
+          <p class="offer-wrapper__text main-text">
+            Приходите к нам в гости и мы познакомим вас с педагогами, расскажем
+            о школе и ответим на все ваши вопросы
+          </p>
+          <a class="offer-wrapper__button" href="#">Записаться</a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="footer__contacts contacts">
+        <p class="contacts__header headers">Мы ждем вас</p>
+        <div class="contacts__item contacts-item">
+          <p class="contacts-item__header">Приходите к нам:</p>
+          <address class="contacts-item__text">
+            Санкт-Петербург,<br />
+            ул. Большая Конюшенная, 19
+          </address>
+        </div>
+        <div class="contacts__item contacts-item">
+          <p class="contacts-item__header">Режим работы:</p>
+          <p class="contacts-item__text">Пн-Сб, с 9-00 до 20-00</p>
+        </div>
+        <div class="contacts__item contacts-item">
+          <p class="contacts-item__header">Позвоните нам:</p>
+          <a class="contacts-item__text" href="tel:+74959834719"
+            >+ 7 (495) 983-47-19</a
+          >
+        </div>
+        <div class="contacts__item contacts-item">
+          <p class="contacts-item__header">Напишите нам:</p>
+          <a class="contacts-item__text" href="mailto:info@cleverbaby.ru"
+            >info@cleverbaby.ru</a
+          >
+        </div>
+        <div class="contacts__item contacts-item">
+          <p class="contacts-item__header">Мы в соцсетях:</p>
+          <ul class="contacts-item__social">
+            <li>
+              <a class="facebook" href="#"
+                ><span class="visually-hidden">Фейсбук</span></a
+              >
+            </li>
+            <li>
+              <a class="vk" href="#"
+                ><span class="visually-hidden vk">ВКонтакте</span></a
+              >
+            </li>
+            <li>
+              <a class="instagram" href="#"
+                ><span class="visually-hidden instagram">Инстаграм</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="contacts__map" id="map"></div>
+      <div class="footer__law-wrapper law">
+        <small class="law__copyright main-text"
+          >CleverBaby &#169; 2020 Все права защищены</small
+        >
+        <a class="law__policy-link main-text" href="#"
+          >Политика конфиденциальности</a
+        >
+      </div>
+    </footer>
+    <script src="bundle.js"></script>
+  </body>
+</html>
