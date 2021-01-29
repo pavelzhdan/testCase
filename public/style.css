@@ -655,15 +655,23 @@ a {
 /*free offer*/
 
 .free-offer {
-  background: url("../img/free-offer/background.png") no-repeat center center;
-  background-size: 100% 100%;
+  background: 
+    url("../img/free-offer/background_upper.png") no-repeat center top padding-box,
+    url("../img/free-offer/background_bottom.png") no-repeat center bottom padding-box,
+    #5879e8 content-box;
+  background-size: 100% auto, 100% auto;
+
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
+
+
 
 .free-offer__wrapper {
   width: 320px;
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 70px 40px;
+  padding: 35px 40px;
 
   text-align: center;
 }
@@ -872,8 +880,10 @@ a {
   }
 
   .sign-in {
-    background: url("../img/sign_in/main_photo_768.png") center center no-repeat;
-    background-size: cover;
+    background: 
+      url("../img/sign_in/main_photo_768.png") center right no-repeat,
+       #fefbf6;
+    background-size: contain;
   }
 
   .sign-in__wrapper {
@@ -1113,15 +1123,19 @@ a {
   }
 
   .free-offer {
-    background-image: url("../img/free-offer/background_768.png");
+    background: 
+    url("../img/free-offer/background_768_upper.png") no-repeat center top padding-box,
+    url("../img/free-offer/background_768_bottom.png") no-repeat center bottom padding-box,
+    #5879e8 content-box;
+  background-size: 100% auto, 100% auto;
   }
 
   .free-offer__wrapper {
     width: 768px;
-    padding: 120px 144px 100px 132px;
+    padding: 85px 144px 65px 132px;
 
-    background: url("../img/free-offer/boy_768.svg") no-repeat 642px 165px,
-      url("../img/free-offer/rainbow_768.svg") no-repeat 18px 202px;
+    background: url("../img/free-offer/boy_768.svg") no-repeat 642px 130px,
+      url("../img/free-offer/rainbow_768.svg") no-repeat 18px 167px;
   }
 
   .offer-wrapper__header {
@@ -1328,8 +1342,9 @@ a {
   }
 
   .sign-in {
-    background: url("../img/sign_in/main_photo_1366.jpg") no-repeat center center;
-    background-size: cover;
+    background: url("../img/sign_in/main_photo_1366.jpg") no-repeat center right,
+    linear-gradient(to left, #ffffff 10%, #fefbf6 10%);
+    background-size: auto 100%;
   }
 
   .sign-in__wrapper {
@@ -1580,15 +1595,22 @@ a {
   }
 
   .free-offer {
-    background-image: url("../img/free-offer/background_1366.png");
-  }
+    background: 
+    url("../img/free-offer/background_1366_upper.png") no-repeat center top padding-box,
+    url("../img/free-offer/background_1366_bottom.png") no-repeat center bottom padding-box,
+    #5879e8 content-box;
+    background-size: 100% auto, 100% auto;  
+
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
 
   .free-offer__wrapper {
     width: 1366px;
-    padding: 100px 437px;
+    padding: 35px 437px;
 
-    background: url("../img/free-offer/boy_768.svg") no-repeat 1001px 150px,
-      url("../img/free-offer/rainbow_768.svg") no-repeat 145px 90px;
+    background: url("../img/free-offer/boy_768.svg") no-repeat 1001px 85px,
+      url("../img/free-offer/rainbow_768.svg") no-repeat 145px 25px;
 
     background-size: 118px 133px, 185px 160px;
   }
